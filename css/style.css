@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: goldenrod;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    margin: 10px auto;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.cell {
+    height: 130px;
+    border-style: solid;
+    text-align: center;
+}
+
+.cell img {
+    max-width: 100%;
+}
+
+.refresh {
+    text-align: right;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.turn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.result {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center; 
+}
+
